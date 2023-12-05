@@ -1,0 +1,20 @@
+.middle-banner {
+    margin-top   : 20px;
+    height       : 300px;
+    display      : flex;
+    position: relative;
+}
+
+.middle-banner-left {
+    width   : 605px;
+    height  : 300px;
+    left    : 0px;
+    position: absolute;
+}
+
+.middle-banner-right {
+    width   : 605px;
+    height  : 300px;
+    right   : 0px;
+    position: absolute;
+}

@@ -1,0 +1,10 @@
+.bread-crumb {
+    height          : 50px;
+    background-color: white;
+    box-shadow      : 0 0 15px #cdcdcd;
+    border-radius   : 25px;
+    line-height     : 50px;
+    padding-right   : 20px;
+    color           : #656565;
+    font-size: 15px;
+}

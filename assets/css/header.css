@@ -1,0 +1,62 @@
+header {
+    width        : 1230px;
+    box-shadow   : 0 0 15px #cdcdcd;
+    height       : 80px;
+    border-radius: 40px;
+    display      : block;
+    margin       : 20px auto;
+    position     : relative;
+    background-color: white;
+}
+
+.btn-search {
+    width              : 55px;
+    height             : 55px;
+    border-radius      : 100%;
+    box-shadow         : 0 0 10px #ff7fe8;
+    background         : url(../img/Search-Icon.png), linear-gradient(45deg, #ff1dcc, #c500b5);
+    position           : absolute;
+    top                : 50%;
+    left               : 15px;
+    transform          : translateY(-50%);
+    background-repeat  : no-repeat;
+    background-position: center;
+}
+
+.btn-basket {
+    width              : 55px;
+    height             : 55px;
+    border-radius      : 100%;
+    box-shadow         : 0 0 10px #bcffa4;
+    background         : url(../img/Basket-Icon.png);
+    border             : 1px solid #06ec00;
+    position           : absolute;
+    top                : 50%;
+    left               : 82px;
+    transform          : translateY(-50%);
+    background-repeat  : no-repeat;
+    background-position: center;
+}
+
+.btn-register {
+    width              : 156px;
+    height             : 55px;
+    border-radius      : 27.5px;
+    box-shadow         : 0 0 10px rgba(30, 30, 255, 48%);
+    background         : linear-gradient(45deg, #6a6aff, #1e1eff);
+    position           : absolute;
+    top                : 50%;
+    left               : 152px;
+    transform          : translateY(-50%);
+    background-repeat  : no-repeat;
+    background-position: center;
+    text-align         : center;
+    line-height        : 55px;
+    color              : #fff;
+}
+
+.logo img {
+    margin-top  : 30px;
+    margin-right: 40px;
+    float       : right;
+}

@@ -1,0 +1,277 @@
+@font-face {
+    font-family: KalamehWeb;
+    font-style : normal;
+    font-weight: 100;
+    src        : url('../fonts/woff2/KalamehWeb-Thin.woff2') format('woff2'),
+        /* FF39+,Chrome36+, Opera24+*/
+        url('../fonts/woff/KalamehWeb-Thin.woff') format('woff');
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+    font-family: KalamehWeb;
+    font-style : normal;
+    font-weight: 200;
+    src        : url('../fonts/woff2/KalamehWeb-ExtraLight.woff2') format('woff2'),
+        /* FF39+,Chrome36+, Opera24+*/
+        url('../fonts/woff/KalamehWeb-ExtraLight.woff') format('woff');
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+    font-family: KalamehWeb;
+    font-style : normal;
+    font-weight: 300;
+    src        : url('../fonts/woff2/KalamehWeb-Light.woff2') format('woff2'),
+        /* FF39+,Chrome36+, Opera24+*/
+        url('../fonts/woff/KalamehWeb-Light.woff') format('woff');
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+    font-family: KalamehWeb;
+    font-style : normal;
+    font-weight: 500;
+    src        : url('../fonts/woff2/KalamehWeb-Medium.woff2') format('woff2'),
+        /* FF39+,Chrome36+, Opera24+*/
+        url('../fonts/woff/KalamehWeb-Medium.woff') format('woff');
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+    font-family: KalamehWeb;
+    font-style : normal;
+    font-weight: 600;
+    src        : url('../fonts/woff2/KalamehWeb-Semibold.woff2') format('woff2'),
+        /* FF39+,Chrome36+, Opera24+*/
+        url('../fonts/woff/KalamehWeb-Semibold.woff') format('woff');
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+    font-family: KalamehWeb;
+    font-style : normal;
+    font-weight: 800;
+    src        : url('../fonts/woff2/KalamehWeb-ExtraBold.woff2') format('woff2'),
+        /* FF39+,Chrome36+, Opera24+*/
+        url('../fonts/woff/KalamehWeb-ExtraBold.woff') format('woff');
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+    font-family: KalamehWeb;
+    font-style : normal;
+    font-weight: 900;
+    src        : url('../fonts/woff2/KalamehWeb-Black.woff2') format('woff2'),
+        /* FF39+,Chrome36+, Opera24+*/
+        url('../fonts/woff/KalamehWeb-Black.woff') format('woff')
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+    font-family: KalamehWeb;
+    font-style : normal;
+    font-weight: bold;
+    src        : url('../fonts/woff2/KalamehWeb-Bold.woff2') format('woff2'),
+        /* FF39+,Chrome36+, Opera24+*/
+        url('../fonts/woff/KalamehWeb-Bold.woff') format('woff');
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+    font-family: KalamehWeb;
+    font-style : normal;
+    font-weight: normal;
+    src        : url('../fonts/woff2/KalamehWeb-Regular.woff2') format('woff2'),
+        /* FF39+,Chrome36+, Opera24+*/
+        url('../fonts/woff/KalamehWeb-Regular.woff') format('woff');
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+body {
+    font-family: KalamehWeb !important;
+    direction  : rtl;
+    margin     : 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: KalamehWeb !important;
+}
+
+.wrapper {
+    max-width       : 900px;
+    margin          : 20px auto;
+    padding         : 30px;
+    background-color: #fff;
+    border-radius   : 15px;
+    box-shadow      : 0 0 10px #aaa;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin        : 0;
+    padding       : 0;
+    border        : 0;
+    font-size     : 100%;
+    font          : inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height     : 1;
+    background-color: #f4f4f4;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing : 0;
+}
+
+.recotik-container {
+    width  : 1230;
+    display: block;
+    margin : 0 auto;
+}
+
+.left-banner {
+    background-color: #fff;
+    float           : left;
+    height          : 300px;
+    width           : 290px;
+    border-radius   : 10px;
+    box-shadow      : 0 0 5px rgba(149, 149, 149, 20%);
+}
+
+.left-banner img {
+    max-width    : 100%;
+    height       : 100%;
+    border-radius: 10px;
+}
+
+.clear {
+    width : 100%;
+    height: 1px;
+    float : none;
+    clear : both;
+}

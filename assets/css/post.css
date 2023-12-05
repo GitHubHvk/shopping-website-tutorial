@@ -1,0 +1,26 @@
+.post-head-image {
+    width: 50%;
+    float: right;
+}
+
+.post-head-image img {
+    border-radius: 10px;
+    max-width    : 100%;
+}
+
+.post-head-data {
+    float: left;
+    width: 50%;
+}
+
+.post-head-data-category {
+    color           : #3ab7fd;
+    border-radius   : 3px;
+    background-color: #acdffc;
+    width           : 60px;
+    height          : 20px;
+    display         : inline-block;
+    text-align      : center;
+    line-height     : 20px;
+    margin: 10px 0;
+}

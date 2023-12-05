@@ -1,0 +1,100 @@
+.last-article {
+    height       : 340px;
+    margin-top   : 20px;
+}
+
+.last-article-head-container {
+    display : flex;
+    height  : 70px;
+    position: relative;
+}
+
+.last-article-head-container h2 {
+    color      : #3b3b3b;
+    font-size  : 23px;
+    font-weight: bold;
+    display    : inline-block;
+    position   : absolute;
+    top        : 50%;
+    transform  : translateY(-50%);
+}
+
+.last-article-head-container h2::before {
+    content            : '';
+    width              : 50px;
+    height             : 50px;
+    vertical-align     : middle;
+    display            : inline-block;
+    background         : url('../img/last-article-head-icon.png');
+    background-position: center;
+    background-repeat  : no-repeat;
+    margin-left        : 10px;
+    margin-right       : 10px;
+}
+
+.last-article-head-container h2::after {
+    content         : '';
+    width           : 1020px;
+    height          : 2px;
+    background-color: #999999;
+    vertical-align  : middle;
+    display         : inline-block;
+    margin-right    : 10px;
+}
+
+.last-article-item-container {
+    height : 270px;
+    display: flex;
+}
+
+.last-article-item-container>a {
+    background-color: white;
+    box-shadow      : 0 0 5px rgba(149, 149, 149, 40%);
+    border-radius   : 10px;
+    width           : calc(20% - 10px);
+    margin          : 0 5px;
+    height          : 270px;
+    position        : relative;
+}
+
+.last-article-item-container>a>div>img {
+    margin   : 10px;
+    max-width: 100%;
+}
+
+.last-article-item-container>a>div>h3 {
+    color    : #3b3b3b;
+    font-size: 20px;
+    margin   : 0 10px 10px 10px;
+}
+
+.last-article-item-writer {
+    bottom       : 10px;
+    color        : white;
+    position     : absolute;
+    height       : 25px;
+    margin-right : 10px;
+    line-height  : 25px;
+    width        : 80px;
+    text-align   : center;
+    border-radius: 12.5px;
+    background   : linear-gradient(90deg, #3e43ff, #fa23e3);
+    font-size    : 12px;
+}
+
+.last-article-item-date {
+    bottom     : 10px;
+    color      : #343434;
+    position   : absolute;
+    height     : 25px;
+    left       : 0;
+    margin-left: 10px;
+    line-height: 25px;
+    text-align : center;
+    font-size  : 11px;
+}
+
+.last-article-item-date img {
+    float      : right;
+    margin-left: 4px;
+}
