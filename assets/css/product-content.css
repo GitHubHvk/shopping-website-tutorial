@@ -1,0 +1,42 @@
+.product-content {
+    float           : right;
+    margin-top      : 20px;
+    width           : 910px;
+}
+
+.product-title {
+    color: #2d2d2d;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+div .prodect-item {
+    width           : 212px;
+    height          : 310px;
+    border-radius   : 10px;
+    background-color: white;
+    margin     : 10px 7.5px 10px 7.5px;
+    float           : right;
+    text-align      : center;
+    box-shadow      : 0 0 5px #cfcfcf;
+    margin-bottom   : 20px;
+}
+
+.prodect-item>p {
+    color     : #353535;
+    text-align: center;
+    width     : 80%;
+    margin    : 8px auto 10px auto;
+}
+
+.prodect-item>a>span {
+    color        : white;
+    height       : 38px;
+    width        : 165px;
+    background   : linear-gradient(90deg, #6a6aff, #1e1eff);
+    border-radius: 10px;
+    line-height  : 38px;
+    text-align   : center;
+    display      : inline-block;
+    box-shadow   : 0 0 5px #1e1eff;
+}
