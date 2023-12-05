@@ -1,0 +1,37 @@
+.not-found-title {
+    color      : #5285a2;
+    font-size  : 58px;
+    font-weight: bold;
+    text-align : center;
+    margin-top : 50px;
+}
+
+.not-found-content img {
+    max-width : 100%;
+    margin    : auto;
+    display   : block;
+    margin-top: 50px;
+}
+
+.not-found-content p {
+    font-weight: bold;
+    color      : #343b47;
+    text-align : center;
+    font-size  : 23px;
+    margin-top : 20px;
+}
+
+.not-found-btn {
+    width           : 200px;
+    height          : 50px;
+    font-size       : 16px;
+    text-align: center;
+    line-height: 50px;
+    color           : white;
+    background: linear-gradient(90deg, #6a6aff, #1e1eff);
+    box-shadow: 0 0 5px #1e1eff;
+    border-radius   : 25px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
